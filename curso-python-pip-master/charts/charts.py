@@ -1,11 +1,10 @@
 import matplotlib.pyplot as plt
 
-def main():
+def generate_pie_chart():
     labels = ['A', 'B', 'C']
-    valuea = [2000, 5444, 5555]
+    values = [200, 34, 120]
 
     fig, ax = plt.subplots()
-    ax.pie(valuea, labels=labels)
+    ax.pie(values, labels=labels)
     plt.savefig('pie.png')
     plt.close()
-
