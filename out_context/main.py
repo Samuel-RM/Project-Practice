@@ -1,4 +1,4 @@
-import charts
+import out_context.charts as charts
 
 def run():
     charts.generate_pie_chart()
