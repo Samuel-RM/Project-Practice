@@ -18,7 +18,7 @@ def get():
 
 
 
-def run():
+def run(): 
     store.get_categories()
 
 if __name__ == '__main__':

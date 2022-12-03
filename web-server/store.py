@@ -10,7 +10,7 @@ def get_categories():
 
     """
     Aqui solicitamos a un api su contenido en formato de texto, este nos dara
-    como resultaod un uotput en formato de strig
+    como resultaod un uotput en formato de string
     """
 
     print(type(r.text))
@@ -18,7 +18,7 @@ def get_categories():
 
     categoria = r.json()
     
-    """
+    """ 
     Nosotros ocumapos la informacion como una lista, algo
     que nos permita pasarle filtos de contenido y la funcion 
     r.json() lo obtenemos en formato de lista con diccionarios dentro
